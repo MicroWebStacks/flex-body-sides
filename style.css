@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    height: 95vh;
+    background-color: lightgrey;
+}
+
+.item {
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.left, .right{
+    width:3rem;
+    background-color: aquamarine;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.body{
+    overflow-x: auto;
+}
+.obj{
+    background-color: bisque;
+    width:800px;
+}
